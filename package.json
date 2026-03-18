@@ -1,0 +1,23 @@
+{
+  "name": "microservice-discovery",
+  "version": "1.0.0",
+  "description": "Microservice Discovery System with Service Registry and Load Balancing",
+  "private": true,
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "start": "bash scripts/start-all.sh",
+    "registry": "cd registry && npm start",
+    "service1": "cd service-instance-1 && npm start",
+    "service2": "cd service-instance-2 && npm start",
+    "client": "cd client && npm start"
+  },
+  "keywords": [
+    "microservices",
+    "service-discovery",
+    "load-balancing",
+    "registry",
+    "distributed-systems"
+  ],
+  "author": "CMPE-273",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "service-instance-2",
+  "version": "1.0.0",
+  "description": "Second instance of user service",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0"
+  }
+}
